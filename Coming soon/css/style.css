@@ -1,0 +1,48 @@
+body {
+  background: #03b3d9;
+  background: linear-gradient(141deg, #03b3d9 18%, rgba(88, 209, 48, 0.513043) 68%, #e52334 100%);
+  font-family: 'Jost', sans-serif;
+  height: 92vh;
+  max-height: 100vh;
+  border: 2px solid #fff;
+  margin: 30px;
+}
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  height: 92vh;
+  color: #fff;
+}
+
+div h1 {
+  font-size: 100px;
+  margin: 0;
+  line-height: 0.6;
+  font-weight: 800;
+}
+
+div p {
+  font-size: 26px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 60px !important;
+  }
+  p {
+    font-size: 20px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

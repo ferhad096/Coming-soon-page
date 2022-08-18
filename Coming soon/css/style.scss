@@ -1,0 +1,39 @@
+body{
+    background: rgb(3,179,217);
+    background: linear-gradient(141deg, rgba(3,179,217,1) 18%, rgba(88,209,48,0.5130427170868348) 68%, rgba(229,35,52,1) 100%);
+    font-family: 'Jost', sans-serif;
+    height: 92vh;
+    max-height: 100vh;
+    border: 2px solid #fff;
+    margin: 30px;
+    // overflow: hidden;
+    
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 92vh;
+    color: #fff;
+    h1{
+        font-size: 100px;
+        margin: 0;
+        line-height: 0.6;
+        font-weight: 800;
+    }
+    p{
+        font-size: 26px;
+    }
+}
+
+
+@media(max-width:600px){
+    h1{
+        font-size: 60px !important;
+    }
+    p{
+        font-size: 20px !important;
+    }
+}
